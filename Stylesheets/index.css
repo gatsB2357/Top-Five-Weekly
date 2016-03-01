@@ -1,0 +1,105 @@
+html{
+    marging: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    background-color: aliceblue;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    
+    height: 100%;
+}
+#header{
+    background: #282828;
+    
+    box-shadow: -1px 3px 5px dimgray;
+}
+.header{
+    display: inline-table;
+    
+    margin: 0px;
+}
+#title{
+    width: 96%;
+    font-family: fantasy;
+    font-size: 28px;
+    font-weight: 500;
+    color: aliceblue;
+    
+    text-align: center;
+}
+#menu{
+    width: 30px;
+    margin-left: 5px; 
+}
+#menu:hover{
+    cursor: pointer;
+}
+.menu_img{
+    height: 5px;
+    width: 30px;
+    display: table-row;
+    
+    padding: 1px;
+}
+#genres_holder{
+    width: 200px;
+    height:100%;
+    background-color: #333333;
+    
+    z-index: -1;
+    position: fixed;
+    left: -200px;
+}
+.credits{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.menu_img_close{
+    display: none;
+}
+.genres{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 500;
+    color: aliceblue;
+    
+    margin: 0px;
+    margin-right: 5px;
+    
+    border: 1px solid #333333;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.genres:hover{
+    background: aliceblue;
+    color: #333333;
+    cursor: pointer;
+    
+    border: 1px solid aliceblue;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#whatsHotTitle{
+    width: 70%;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 300;
+    
+    background: #282828;
+    border: 1px solid #282828;
+    border-radius: 3px;
+    
+    color: white;
+    
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0px 3px 5px #333333;
+}
